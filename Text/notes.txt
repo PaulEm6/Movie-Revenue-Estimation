@@ -1,0 +1,5 @@
+read Kaggle on revenue prediction
+
+Clean encoding, look at dataset to make sure it worked
+
+Classification instead of regression?

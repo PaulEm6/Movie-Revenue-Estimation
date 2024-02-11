@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <!-- Include Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+    <!-- Form for Input -->
+    <form id="inputForm">
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year" required>
+        <!-- Add other input fields as needed -->
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <!-- Plotly Plot Container -->
+    <div id="plotContainer"></div>
+
+    <!-- Result Display -->
+    <div id="result"></div>
+
+    <script>
+        function submitForm() {
+            // Get input values from the form
+            const year = document.getElementById('year').value;
+
+            // Create a JSON object with the input data
+            const inputData = {
+                "year": year,
+                // Add other input fields as needed
+            };
+
+            // Send a POST request to the server
+            fetch('http://localhost:8080/', {  // Assuming the Flask server is running on port 8080
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(inputData),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Handle the JSON response
+
+                // Assuming the server sends a list of numbers as 'prediction_result'
+                const plotData = [{
+                    x: data.prediction_result,
+                    type: 'bar',
+                }];
+
+                // Create a Plotly plot in the 'plotContainer' div
+                Plotly.newPlot('plotContainer', plotData);
+
+                // Display the result in the 'result' div
+                document.getElementById('result').innerHTML = `Prediction Result: ${data.prediction_result}`;
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+
+</body>
+</html>

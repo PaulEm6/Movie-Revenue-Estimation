@@ -1,0 +1,34 @@
+handling outliers capping budget at 1 billion
+box office is capped at 9 billion (inflation probably)
+do not scale output
+do not add domestic or international box office to feature training
+
+------------------
+
+Solution 1 => review preprocessing (remove domestic from the beginning, split features into numerical and categorical), 
+            increase the amount of iterations, look at gpt and overflow
+
+            - run training over night
+
+            - tolerance and duality gap?
+
+            - train on everything?
+
+Solution 2 => Finish the kaggle dataset
+
+------------------
+
+
+
+
+#################################################################
+# DATA PREPROCESSING: TEXT DATA PROCESSING [POSSIBLE IMPROVEMENT]
+#################################################################
+
+#Instead of encoding the keywords using one hot encoding, we use tdidf to determine the importance
+#of the keyword. 
+# First we remove the stop words such as: a, the, in then we determine how useful a a keyword is
+
+###########################################################################################################
+# DATA PREPROCESSING: FEATURE ENGINEERING => PROFITABILITY OF A MOVIE BUDGET/REVENUE [POSSIBLE IMPROVEMENT]
+###########################################################################################################

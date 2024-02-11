@@ -1,0 +1,47 @@
+Spider-verse
+
+    #Numerical featuers
+    year = 2023
+    budget = 90000000
+    duration = 120
+
+    #Categorical features
+    MPAA_rating = ['MPAA Rating_PG']
+    Keywords = ['Keywords_Action Adventure','Keywords_Marvel Comics','Keywords_Other_Keywords'] #Multiple
+    Source = ['Source_Based on Comic/Graphic Novel']
+    Production_method = ['Production method_Digital Animation']
+    Creative_type = ['Creative type_Science Fiction']
+    Countries = ['Countries_United States'] #Multiple
+    Genres = ['Action','Science Fiction','Action','Adventure']
+
+LaLaLand
+
+    #Numerical featuers
+    year = 2020
+    budget = 30000000
+    duration = 120
+
+    #Categorical features
+    MPAA_rating = ['MPAA Rating_PG-13']
+    Keywords = ['Keywords_Romance', 'Keywords_Other_Keywords','Keywords_Artists'] #Multiple
+    Source = ['Source_Original Screenplay']
+    Production_method = ['Production method_Live Action']
+    Creative_type = ['Creative type_Dramatization']
+    Countries = ['Countries_United States'] #Multiple
+    Genres = ['Music','Comedy','Drama'] #Multiple
+
+Imitation Game
+
+    #Numerical featuers
+    year = 2020
+    budget = 14000000
+    duration = 120
+
+    #Categorical features
+    MPAA_rating = ['MPAA Rating_PG-13']
+    Keywords = ['Keywords_War','Keywords_War Drama'] #Multiple
+    Source = ['Source_Based on Real Life Events']
+    Production_method = ['Production method_Live Action']
+    Creative_type = ['Creative type_Contemporary Fiction']
+    Countries = ['Countries_United States'] #Multiple
+    Genres = ['Drama','Thriller']

@@ -1,0 +1,81 @@
+Shape of dataset (4751, 4828)
+
+Training for month 1.0, number of movies: 239
+Lasso RMSE on test set: 15206782.492324814
+Ridge RMSE on test set: 1535713.4599043892
+Elastic Net RMSE on test set: 1436630.4012289476
+Random forest RMSE on test set: 58882406.07400605
+
+Training for month 2.0, number of movies: 350
+Lasso RMSE on test set: 1816705.447519911
+Ridge RMSE on test set: 702382.1478194167
+Elastic Net RMSE on test set: 1005572.0539422622
+Random forest RMSE on test set: 48254667.51736075
+
+Training for month 3.0, number of movies: 406
+Lasso RMSE on test set: 841231.4506232674
+Ridge RMSE on test set: 523377.95812136616
+Elastic Net RMSE on test set: 661879.2362867693
+Random forest RMSE on test set: 78141142.83044524
+
+Training for month 4.0, number of movies: 387
+Lasso RMSE on test set: 11467516.390729979
+Ridge RMSE on test set: 11434712.15735551
+Elastic Net RMSE on test set: 11372866.102392705
+Random forest RMSE on test set: 163444860.78761375
+
+Training for month 5.0, number of movies: 345
+Lasso RMSE on test set: 812544.264151394
+Ridge RMSE on test set: 867700.9843258699
+Elastic Net RMSE on test set: 1042888.9314160204
+Random forest RMSE on test set: 239495946.11869526
+
+Training for month 6.0, number of movies: 404
+Lasso RMSE on test set: 718570.5699107442
+Ridge RMSE on test set: 716964.4202292729
+Elastic Net RMSE on test set: 741176.1650268952
+Random forest RMSE on test set: 81229384.59268458
+
+Training for month 7.0, number of movies: 386
+Lasso RMSE on test set: 354596.0700200869
+Ridge RMSE on test set: 384650.67541910283
+Elastic Net RMSE on test set: 512838.05444831896
+Random forest RMSE on test set: 73287770.82731432
+
+Training for month 8.0, number of movies: 428
+Lasso RMSE on test set: 2017413.2793354574
+Ridge RMSE on test set: 838261.1451493503
+Elastic Net RMSE on test set: 890561.3020958732
+Random forest RMSE on test set: 99262496.74528635
+
+Training for month 9.0, number of movies: 385
+Lasso RMSE on test set: 2551764.857710954
+Ridge RMSE on test set: 313127.29443556577
+Elastic Net RMSE on test set: 606511.1402861432
+Random forest RMSE on test set: 76144890.95089833
+
+Training for month 10.0, number of movies: 482
+Lasso RMSE on test set: 1500677.3193223756
+Ridge RMSE on test set: 852655.698218012
+Elastic Net RMSE on test set: 996454.8526476733
+Random forest RMSE on test set: 101161690.81002834
+
+Training for month 11.0, number of movies: 449
+Lasso RMSE on test set: 371291.511959338
+Ridge RMSE on test set: 372949.09974045097
+Elastic Net RMSE on test set: 612669.0231391249
+Random forest RMSE on test set: 56249653.14044417
+
+Training for month 12.0, number of movies: 490
+Lasso RMSE on test set: 910055.9685310046
+Ridge RMSE on test set: 908481.6166775767
+Elastic Net RMSE on test set: 957235.8871563926
+Random forest RMSE on test set: 79973003.66258328
+
+Training summary
+Elapsed Time: 1.0 minutes : 57.266440868377686 seconds
+Lasso average RMSE 3214095.801844944
+Ridge average RMSE 1620914.721449657
+Elastic net average RMSE 1736440.262505594
+Random Forest average RMSE 96293992.83811338
+

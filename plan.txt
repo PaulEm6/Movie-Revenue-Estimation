@@ -1,0 +1,14 @@
+save backup of knn model
+
+----------------------
+retrain model from file 0 to 7
+
+make a file that takes the model, rescales numerical values and converts the categorical values chosen as true into an input vector,
+
+output the revenue of each month
+
+------------------
+
+Try to integrate to flask of a website
+
+Push to odyssey website

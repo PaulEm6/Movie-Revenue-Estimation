@@ -1,0 +1,25 @@
+Files Needed:  Models/KNN_best_model.pkl, column_names.json, pca_model.joblib, backend.txt
+
+Genres: 
+    'Action','Adventure','Animation','Comedy','Crime','Documentary',
+    'Drama','Family','Fantasy','History','Horror','Music','Mystery', 
+    'Romance','Science Fiction','TV Movie','Thriller','War','Western' 
+
+MPAA_Rating:
+    'MPAA Rating_G','MPAA Rating_PG','MPAA Rating_PG-13','MPAA Rating_R'
+
+Keywords: Multiple
+    'Keywords_Romance','Keywords_Non-Chronological','Keywords_Revenge',
+    'Keywords_Action Adventure','Keywords_Marvel Comics','Keywords_Other_Keywords'
+    'Keywords_Comedy Drama','Keywords_Action Thriller', 'Keywords_Biography','Keywords_Voiceover/Narration','Keywords_Suprise Twist',
+    'Keywords_Artists', 'Keywords_War','Keywords_War Drama'
+
+Source:
+    'Source_Based on Comic/Graphic Novel','Source_Based on Game', 'Source_Based on Real Life Events', 
+    'Source_Original Screenplay', 'Source_Remake'
+
+Production_method:
+    'Production method_Digital Animation','Production method_Hand Animation','Production method_Live Action','Production method_Multiple Production Methods'
+
+Creative_type: Multiple
+    'Creative type_Science Fiction','Creative type_Super Hero','Creative type_Fantasy','Creative type_Contemporary Fiction'
